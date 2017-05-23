@@ -27,7 +27,7 @@
 		<!-- header with title and nav bar -->
 		<header>
 			<div class="container">
-				<div class="row" style="background: #6fcbec">
+				<div class="row" style="background: #50CBFE">
 					<!--First title in lovers quarrel google font-->
 					<div class="col-1"><h1 id="isles">Isles </h1></div>
 				</div> <!-- 1st row -->
@@ -43,8 +43,8 @@
 			<div class="row">
 				<h1>About me:</h1>
 				<p>blah blah blah blah blah words about me blah blah blah blah</p>
-				<img src="" alt="picture of Danielle">
-			</div>
+				<img src="images/profile-picture.img.jpg" alt="picture of Danielle">
+			</div> <!-- row -->
 		</div> <!-- container end about me-->
 	</body>
 </html>
