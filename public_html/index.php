@@ -27,11 +27,11 @@
 		<!-- header with title and nav bar -->
 		<header>
 			<div class="container">
-				<div class="row" style="background: cyan">
+				<div class="row" style="background: #6fcbec">
 					<!--First title in lovers quarrel google font-->
 					<div class="col-1"><h2>Isles </h2></div>
 				</div> <!-- 1st row -->
-				<div class="row" style="background: darkgray">
+				<div class="row" style="background: #6a6c6f">
 					<!-- second part of title should be offside google font-->
 					<div class="col-2"><h2>Designs</h2></div>
 					</div> <!-- 2nd row -->
@@ -39,10 +39,11 @@
 		</header>
 
 		<!-- about me section-->
-		<div class="container">
-			<div class="row" style="background lightgrey">
+		<div class="container" style="background #ced3d3">
+			<div class="row">
 				<h1>About me:</h1>
 				<p>blah blah blah blah blah words about me blah blah blah blah</p>
+				<img src="" alt="picture of Danielle">
 			</div>
 		</div> <!-- container end about me-->
 	</body>
