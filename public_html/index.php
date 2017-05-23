@@ -28,11 +28,11 @@
 			<div class="container">
 				<div class="row" style="background: lightgrey">
 					<!--First title in lovers quarrel google font-->
-					<div class="col-sm-1"><h2>Isles </h2></div>
+					<div class="col-1"><h2>Isles </h2></div>
 				</div> <!-- 1st row -->
 				<div class="row" style="background: darkgray">
 					<!-- second part of title should be offside google font-->
-					<div class="col-sm-2"><h2>Designs</h2></div>
+					<div class="col-2"><h2>Designs</h2></div>
 					</div> <!-- 2nd row -->
 			</div> <!--container -->
 		</header>
