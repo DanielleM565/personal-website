@@ -24,9 +24,10 @@
 
 </head>
 	<body>
+		<!-- header with title and nav bar -->
 		<header>
 			<div class="container">
-				<div class="row" style="background: lightgrey">
+				<div class="row" style="background: cyan">
 					<!--First title in lovers quarrel google font-->
 					<div class="col-1"><h2>Isles </h2></div>
 				</div> <!-- 1st row -->
@@ -36,5 +37,13 @@
 					</div> <!-- 2nd row -->
 			</div> <!--container -->
 		</header>
+
+		<!-- about me section-->
+		<div class="container">
+			<div class="row" style="background lightgrey">
+				<h1>About me:</h1>
+				<p>blah blah blah blah blah words about me blah blah blah blah</p>
+			</div>
+		</div> <!-- container end about me-->
 	</body>
 </html>
