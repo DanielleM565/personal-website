@@ -29,11 +29,11 @@
 			<div class="container">
 				<div class="row" style="background: #6fcbec">
 					<!--First title in lovers quarrel google font-->
-					<div class="col-1"><h2>Isles </h2></div>
+					<div class="col-1"><h1 id="isles">Isles </h1></div>
 				</div> <!-- 1st row -->
 				<div class="row" style="background: #6a6c6f">
 					<!-- second part of title should be offside google font-->
-					<div class="col-2"><h2>Designs</h2></div>
+					<div class="col-2"><h1 id="designs">Designs</h1></div>
 					</div> <!-- 2nd row -->
 			</div> <!--container -->
 		</header>
