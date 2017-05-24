@@ -43,7 +43,7 @@
 			<div class="row">
 				<h1>About me:</h1>
 				<p>blah blah blah blah blah words about me blah blah blah blah</p>
-				<img src="images/profile-picture.img.jpg" alt="picture of Danielle">
+				<img src="imagespwp/profile-picture.jpg" alt="picture of Danielle" class="img-circle">
 			</div> <!-- row -->
 		</div> <!-- container end about me-->
 	</body>
