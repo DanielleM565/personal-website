@@ -52,9 +52,18 @@
 		<!-- about me section-->
 		<div class="container" style="background #ced3d3">
 			<div class="row">
+				<div class="pull-left">
 				<h1>About me:</h1>
-				<p>blah blah blah blah blah words about me blah blah blah blah</p>
-				<img src="imagespwp/profile-picture.jpg" alt="picture of Danielle" class="img-circle">
+				<p>blah blah blah blah blah words about me blah blah blah blah
+					blah blah blah blah blah words about me blah blah blah blah
+					blah blah blah blah blah words about me blah blah blah blah
+					blah blah blah blah blah words about me blah blah blah blah
+					blah blah blah blah blah words about me blah blah blah blah
+					blah blah blah blah blah words about me blah blah blah blah</p>
+				</div>
+				<div class="pull-right">
+				<img src="imagespwp/profile-picture.jpg" alt="picture of Danielle">
+				</div>
 			</div> <!-- row -->
 		</div> <!-- container end about me-->
 	</body>
