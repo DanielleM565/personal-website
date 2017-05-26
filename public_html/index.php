@@ -66,5 +66,7 @@
 				</div>
 			</div> <!-- row -->
 		</div> <!-- container end about me-->
+
 	</body>
+
 </html>

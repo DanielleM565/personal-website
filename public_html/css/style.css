@@ -1,4 +1,17 @@
 /*
+Global styles
+ */
+
+.pull-right {
+	float: left;
+}
+
+.pull-left {
+	float: right;
+}
+
+
+/*
 *Header, title and Nav bar section
  */
 
