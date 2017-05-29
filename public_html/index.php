@@ -54,12 +54,8 @@
 			<div class="row">
 				<div class="pull-left">
 				<h1>About me:</h1>
-				<p>blah blah blah blah blah words about me blah blah blah blah
-					blah blah blah blah blah words about me blah blah blah blah
-					blah blah blah blah blah words about me blah blah blah blah
-					blah blah blah blah blah words about me blah blah blah blah
-					blah blah blah blah blah words about me blah blah blah blah
-					blah blah blah blah blah words about me blah blah blah blah</p>
+				<p>Hello I am Danielle Isles Martin and I trulybelieve a good balance of art and science is what makes good design. As a Photographer, Web Developer and scientist. I live in that balance between science and art, constatly creating and testing new ideas. If you have and idea and need a website lets talk! (add link to contact me section here) </p>
+		<!-- link to contact me section here -->
 				</div>
 				<div class="pull-right">
 				<img src="imagespwp/profile-picture.jpg" alt="picture of Danielle">
