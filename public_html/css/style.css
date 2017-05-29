@@ -10,13 +10,18 @@ Global styles
 	float: right;
 }
 
+section {
+	padding: 5rem 0;
+}
+
 
 /*
 *Header, title and Nav bar section
  */
-
-
-
+header {
+	background-color: #6a6c6f;
+	padding: 3rem 0;
+}
 
 
 
@@ -24,10 +29,13 @@ Global styles
 *Image of me in about me section
  */
 
+.container {
+	background-color: #ced3d3;
+}
 
 
 img[alt="picture of Danielle"] {
-	height: 175px;
+	height: 200px;
 	padding: 1rem;
 
 }
@@ -35,3 +43,10 @@ img[alt="picture of Danielle"] {
 .img-circle{
 	border-radius: 50%;
 }
+
+/*
+* color themes for isles brand design
+* cyan = #50cbfe
+* dark grey = #6a6c6f
+* light grey = #ced3d3
+*/
