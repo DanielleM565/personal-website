@@ -29,6 +29,17 @@
 	<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+	<!-- 1. Add latest jQuery and fancyBox files -->
+	<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
+
+	<!-- 2. Create links -->
+	<a data-fancybox="gallery" href="big_1.jpg"><img src="small_1.jpg"></a>
+	<a data-fancybox="gallery" href="big_2.jpg"><img src="small_2.jpg"></a>
+	<!-- documentation -->
+
+
 </head>
 
 
@@ -55,6 +66,16 @@
 				</div> <!-- 2nd row -->
 			</div> <!--container -->
 		</header>
+
+		<!--Photography using fancybox3 -->
+		<section>
+			<div class="container">
+
+			</div>
+		</section>
+
+
+
 
 		<!-- about me section-->
 		<div class="container">
