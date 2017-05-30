@@ -70,7 +70,12 @@
 		<!--Photography using fancybox3 -->
 		<section>
 			<div class="container">
-
+				<!-- <a href="lightning.jpg" data-fancybox="group" data-caption="lightning">
+					img src="thumbnail_1.jpg" alt="lightening" />
+				</a>
+				<a href="b.jpg" data-fancybox="group" data-caption="blood-moon">
+					img src="thumbnail_2.jpg" alt="blood moon" />
+				</a>-->
 			</div>
 		</section>
 
@@ -78,19 +83,17 @@
 
 
 		<!-- about me section-->
-		<div class="container">
-			<div class="about">
-				<div class="row">
-					<div class="pull-left">
+		<div class="container" id="about-me">
+			<div class="row">
+				<div class="col-xs-12 col-md-8">
 						<h2>About me:</h2>
 							<p>Hello I am Danielle Isles Martin and I truly believe a good balance of art and science is what makes good design. As a Photographer, Web Developer and Scientist I live in that balance between science and art, constantly creating and testing new ideas. If you have and idea and need a website let's talk! (add link to contact me section here) </p>
 		<!-- link to contact me section here -->
-					</div>
-						<div class="pull-right">
+				</div>
+				<div class="col-xs-12 col-md-4">
 							<img class="img-circle" src="imagespwp/profile-picture.jpg" alt="picture of Danielle">
-						</div>
-				</div> <!-- row -->
-			</div>
+				</div>
+			</div> <!-- row -->
 		</div> <!-- container end about me-->
 
 

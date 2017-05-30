@@ -56,19 +56,22 @@ Global styles
 
 
 /*
-*Image of me in about me section
+*about me section
  */
 
 .container {
 	background-color: #ced3d3;
 }
-#about {
-	background-color: #ced3d3;
+
+.p{
+	float: left;
+	width: 52rem;
 }
 
 img[alt="picture of Danielle"] {
 	height: 200px;
 	padding: 1rem;
+	float: right;
 }
 
 .img-circle{
