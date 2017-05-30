@@ -14,15 +14,36 @@ section {
 	padding: 5rem 0;
 }
 
+/*
+* google fonts
+ * need help getting this to work properly
+@font-face{
+	font-family: 'Lovers Quarrel';
+	src: <link href="https://fonts.googleapis.com/css?family=Lovers+Quarrel" rel="stylesheet">
+	font-family: 'Offside', cursive;
+	src: <link href="https://fonts.googleapis.com/css?family=Offside" rel="stylesheet">
+}
+*/
+
+
 
 /*
 *Header, title and Nav bar section
  */
-header {
+.header {
 	background-color: #6a6c6f;
 	padding: 3rem 0;
 }
 
+#isles {
+	background-color: #50cbfe;
+	font-family: 'Lovers Quarrel', cursive;
+}
+
+#designs {
+	background-color: #ced3d3;
+	font-family: 'Offside', cursive;
+}
 
 
 /*
@@ -37,7 +58,6 @@ header {
 img[alt="picture of Danielle"] {
 	height: 200px;
 	padding: 1rem;
-
 }
 
 .img-circle{
