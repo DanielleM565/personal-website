@@ -2,6 +2,31 @@
 Global styles
  */
 
+/*
+*media queries for different size devices from documentation http://getbootstrap.com/css/
+*
+* Extra small devices (phones, less than 768px)
+* No media query since this is the default in Bootstrap
+* create a responsive container
+*/
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.container { width: 1170px; }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.container { width: 970px; }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.container { width: 750px; }
+}
+
+
+
 .pull-right {
 	float: left;
 }
@@ -9,22 +34,6 @@ Global styles
 .pull-left {
 	float: right;
 }
-
-section {
-	padding: 5rem 0;
-}
-
-/*
-* google fonts
- * need help getting this to work properly
-@font-face{
-	font-family: 'Lovers Quarrel';
-	src: <link href="https://fonts.googleapis.com/css?family=Lovers+Quarrel" rel="stylesheet">
-	font-family: 'Offside', cursive;
-	src: <link href="https://fonts.googleapis.com/css?family=Offside" rel="stylesheet">
-}
-*/
-
 
 
 /*
@@ -53,7 +62,9 @@ section {
 .container {
 	background-color: #ced3d3;
 }
-
+#about {
+	background-color: #ced3d3;
+}
 
 img[alt="picture of Danielle"] {
 	height: 200px;
@@ -63,6 +74,8 @@ img[alt="picture of Danielle"] {
 .img-circle{
 	border-radius: 50%;
 }
+
+
 
 /*
 * color themes for isles brand design
