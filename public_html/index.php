@@ -80,8 +80,6 @@
 		</section>
 
 
-
-
 		<!-- about me section-->
 		<div class="container" id="about-me">
 			<div class="row">
@@ -89,10 +87,10 @@
 						<h2>About me:</h2>
 							<p>Hello I am Danielle Isles Martin and I truly believe a good balance of art and science is what makes good design. As a Photographer, Web Developer and Scientist I live in that balance between science and art, constantly creating and testing new ideas. If you have and idea and need a website let's talk! (add link to contact me section here) </p>
 		<!-- link to contact me section here -->
-				</div>
+				</div> <!-- column text -->
 				<div class="col-xs-12 col-md-4">
 							<img class="img-circle" src="imagespwp/profile-picture.jpg" alt="picture of Danielle">
-				</div>
+				</div> <!-- column img -->
 			</div> <!-- row -->
 		</div> <!-- container end about me-->
 
