@@ -48,22 +48,7 @@
 		<!-- header with title and nav bar -->
 		<header>
 			<div class="container-fluid">
-				<div class="row">
-					<div class="isles">
-					<!--First title in lovers quarrel google font-->
-					<div class="col-1">
-						<h1>Isles </h1>
-					</div>
-				</div>
-			</div> <!-- 1st row -->
-			<div class="row">
-				<div class="designs">
-					<!-- second part of title should be offside google font-->
-					<div class="col-2">
-						<h1>Designs</h1>
-					</div>
-				</div>
-			</div> <!-- 2nd row -->
+				 <img class="pull-left" src="imagespwp/logo.png" alt="Isles Designs logo">
 			</div> <!--container -->
 		</header>
 

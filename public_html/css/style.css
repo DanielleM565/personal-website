@@ -27,33 +27,20 @@ Global styles
 
 
 
-.pull-right {
-	float: left;
-}
-
-.pull-left {
-	float: right;
-}
-
 
 /*
 *Header, title and Nav bar section
  */
-.header {
-	background-color: #6a6c6f;
-	padding: 3rem 0;
+
+header {
+	background-color:#6a6c6f ;
 }
 
-#isles {
-	background-color: #50cbfe;
-	font-family: 'Lovers Quarrel', cursive;
+img[alt="Isles Designs logo"] {
+	float: left;
+	height: 175px;
+	width: 600px;
 }
-
-#designs {
-	background-color: #ced3d3;
-	font-family: 'Offside', cursive;
-}
-
 
 /*
 *about me section
@@ -63,9 +50,17 @@ Global styles
 	background-color: #ced3d3;
 }
 
+.h2{
+	padding-left: 3rem;
+	font-family: "lovers quarrel", cursive;
+	font-size: 37px;
+}
+
 .p{
 	float: left;
 	width: 52rem;
+	padding-left: 3rem;
+	font-family: "Offside", cursive;
 }
 
 img[alt="picture of Danielle"] {
