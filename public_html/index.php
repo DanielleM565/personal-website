@@ -141,6 +141,7 @@
 
 				</div> <!-- column-->
 			</div> <!-- row -->
+
 			<!--empty area for form error/success output-->
 			<div class="row">
 				<div class="col-xs-12">
@@ -148,6 +149,17 @@
 				</div>
 			</div>
 		</section>
+
+
+
+			<footer id="icons">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4"
+						<a href="https://www.linkedin.com/in/danielle-martin-6a2b21132"> <i class="fa fa-linkedin-square fa-4x"></i></a>
+					</div>
+				</div>
+			</footer>
 
 		</div> <!-- all the content container-->
 
