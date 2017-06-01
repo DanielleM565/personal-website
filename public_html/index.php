@@ -6,7 +6,7 @@
 	<!--For Internet explorer users please see http://lmgtfy.com/?q=how+to+download+google -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-	<!--Boot strap style pages from http://getbootstrap.com/getting-started/ -->
+	<!--Bootstrap style pages from http://getbootstrap.com/getting-started/ -->
 
 	<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -23,11 +23,19 @@
 	<!-- my custom css-->
 		<link rel="stylesheet" href="css/style.css" type="text/css">
 
+	<!--jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 
-	<!-- 1. Add latest jQuery and fancyBox files -->
-	<script src=“https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js“></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
+	<!-- jQuery Form, Additional Methods, Validate -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.1/jquery.form.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/additional-methods.min.js"></script>
+
+	<!-- Your JavaScript Form Validator -->
+	<script src="js/form-validate.js"></script>
+
+	<!-- Google reCAPTCHA -->
+	<script src='https://www.google.com/recaptcha/api.js'></script>
 
 	<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -56,9 +64,6 @@
 				 <a data-fancybox="group" data-caption="lightning">
 					<img class="img-responsive center-block" src="images-fancybox3/lightning.jpg" alt="lightning" />
 				</a>
-				<a data-fancybox="group" data-caption="blood-moon">
-					<img class="img-responsive center-block" src="images-fancybox3/blood-moon.jpg" alt="blood moon" />
-				</a>
 			</div>
 		</section>
 
@@ -86,7 +91,7 @@
 				<div class="col-md-2"></div>
 				<div class="col-md-8 center-block">
 					<!--Begin Contact Form-->
-					<form id="contact-form" action="php/mailer.php" method="post">
+					<form id="contact-form" method="POST" action="php/mailer.php">
 						<div class="form-group">
 							<label for="name">Name <span class="text-danger">*</span></label>
 							<div class="input-group">
@@ -124,12 +129,14 @@
 							</div>
 						</div>
 
-						<!-- reCAPTCHA -->
-						<div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
+						<!--Google reCAPTCHA helps prevent spam and robots -->
+						<div class="g-recaptcha" data-sitekey="6LcR1CMUAAAAAIdpnBD_kqkRmGmjjRSLxo7GdfCE"></div>
+
 
 						<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 						<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
 					</form>
+					<!-- end contact form -->
 
 
 				</div> <!-- column-->
@@ -143,6 +150,7 @@
 		</section>
 
 		</div> <!-- all the content container-->
+
 	</body>
 
 </html>
