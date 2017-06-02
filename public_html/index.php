@@ -47,17 +47,38 @@
 	<body class="sfooter">
 
 		<!-- header with title and nav bar -->
-		<header>
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-md-4">
-						<img class="pull-left" src="imagespwp/logo.png" alt="Isles Designs logo">
-					</div> <!-- column -->
-				</div> <!--row -->
-			</div> <!--container -->
-		</header>
+	<header>
 
-		<div class="container"> <!-- all the content containter -->
+			<div class="row">
+
+					<img class="logo img-responsive" src="imagespwp/logo.png" alt="Isles Designs logo">
+
+			</div> <!--row -->
+
+	</header>
+
+<!--		<header>-->
+<!--			<div class="container">-->
+<!--				<img class="logo pull-left" src="imagespwp/logo2.jpg" alt="Isles Designs logo">-->
+<!--				<div class="col-md-4">-->
+<!--					<div class="row">-->
+<!--						<div class="isles">-->
+<!--						<!--First title in lovers quarrel google font-->
+<!--							<h1>Isles</h1>-->
+<!--						</div>-->
+<!--					</div> <!-- 1st row -->
+<!--				<div class="row">-->
+<!--					<div class="designs">-->
+<!--						<!-- second part of title should be offside google font-->
+<!--							<h1>Designs</h1>-->
+<!--						</div>-->
+<!--					</div> <!-- second row -->
+<!--				</div> <!-- column -->
+<!--			</div> <!--container -->
+<!--		</header>-->
+
+
+		<div class="container"> <!-- all the content container -->
 
 			<!--Photography -->
 				<div class="container" id="photos">

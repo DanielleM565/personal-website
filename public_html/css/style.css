@@ -47,11 +47,13 @@ like the logo
 
 h2, h3{
 	font-family: 'Lovers Quarrel', cursive;
-	font-size: 37px;
+	font-size: 70px;
 }
 
 p{
 	font-family: "Offside", cursive;
+	font-size: 25px;
+
 }
 
 
@@ -63,12 +65,13 @@ header {
 	background-color:#6a6c6f ;
 }
 
-img[alt="Isles Designs logo"] {
+#logo{
 	float: left;
 	height: 175px;
 	width: 600px;
 }
 
+/* images section */
 
 #photos {
 	padding: 4rem;
@@ -90,7 +93,7 @@ img[alt="Isles Designs logo"] {
 
 
 img[alt="picture of Danielle"] {
-	height: 200px;
+	height: 250px;
 	padding: 1rem;
 	float: right;
 }
