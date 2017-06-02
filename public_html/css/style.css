@@ -47,14 +47,15 @@ like the logo
 
 h2, h3{
 	font-family: 'Lovers Quarrel', cursive;
-	font-size: 70px;
+	font-size: 60px;
 }
 
 p{
 	font-family: "Offside", cursive;
 	font-size: 25px;
-
 }
+
+
 
 
 /*
@@ -62,13 +63,13 @@ p{
  */
 
 header {
-	background-color:#6a6c6f ;
+	background-color:#6a6c6f;
 }
+
 
 #logo{
 	float: left;
-	height: 175px;
-	width: 600px;
+	max-height: 25rem;
 }
 
 /* images section */
