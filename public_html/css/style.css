@@ -40,8 +40,19 @@ html, body {
 	.container { width: 750px; }
 }
 
+/*
+*keeping the headers and paragraphs the same fonts
+like the logo
+ */
 
+h2, h3{
+	font-family: 'Lovers Quarrel', cursive;
+	font-size: 37px;
+}
 
+p{
+	font-family: "Offside", cursive;
+}
 
 
 /*
@@ -73,20 +84,10 @@ img[alt="Isles Designs logo"] {
 	background-color: #ced3d3;
 	padding-left: 12rem;
 	padding-right: 12rem;
+	padding-bottom: 3rem;
+	padding-top: 2rem;
 }
 
-.h2{
-	padding-left: 3rem;
-	font-family: 'Lovers Quarrel', cursive;
-	font-size: 37px;
-}
-
-.p{
-	float: left;
-	width: 52rem;
-	padding-left: 3rem;
-	font-family: "Offside", cursive;
-}
 
 img[alt="picture of Danielle"] {
 	height: 200px;
@@ -103,6 +104,8 @@ img[alt="picture of Danielle"] {
  */
 #portfolio {
 	background-color: #6a6c6f;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
 
 
@@ -110,15 +113,29 @@ img[alt="picture of Danielle"] {
 /*
 * contact form
  */
+.contact {
+	background-color: #ced3d3;
+}
+
 #contact-form {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #ced3d3;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
 
 footer{
 	background-color: #6a6c6f;
+	padding: 1rem;
+	display: flex;
+}
+
+.icons {
+	justify-content: center;
+	text-align: center;
+	padding: 1rem;
 }
 
 

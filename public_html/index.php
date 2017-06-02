@@ -70,7 +70,7 @@
 			<!-- about me section-->
 			<div class="container" id="about-me">
 				<div class="row">
-					<div class="col-xs-12 col-md-8">
+					<div class="col-md-8">
 						<h2>About me:</h2>
 						<p>Hello I am Danielle Isles Martin and I truly believe a good balance of art and science is what
 							makes good design. As a Photographer, Web Developer and Scientist I live in that balance between
@@ -78,7 +78,7 @@
 							let's talk! (add link to contact me section here) </p>
 						<!-- link to contact me section here -->
 					</div> <!-- column text -->
-					<div class="col-xs-12 col-md-4">
+					<div class="col-md-4">
 						<img class="img-circle" src="imagespwp/profile-picture.jpg" alt="picture of Danielle">
 					</div> <!-- column img -->
 				</div> <!-- row -->
@@ -103,7 +103,7 @@
 
 
 			<!-- contact me section-->
-			<div class="container">
+			<div class="container contact">
 				<div class="row">
 					<div class="col-md-2"></div>
 					<div class="col-md-8 center-block">
@@ -167,12 +167,16 @@
 
 		</div> <!-- all the content container-->
 
-			<footer id="icons">
+			<footer class="icons">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-3"
-						<a href="https://www.linkedin.com/in/danielle-martin-6a2b21132"> <i
+						<div>
+							<a href="https://www.linkedin.com/in/danielle-martin-6a2b21132"> <i
 								class="fa fa-linkedin-square fa-4x"></i></a>
+							<a href="https://www.linkedin.com/in/danielle-martin-6a2b21132"> <i
+										  class="fa fa-linkedin-square fa-4x"></i></a>
+							<a href="https://www.linkedin.com/in/danielle-martin-6a2b21132"> <i
+										  class="fa fa-linkedin-square fa-4x"></i></a>
 					</div>
 				</div>
 			</footer>
