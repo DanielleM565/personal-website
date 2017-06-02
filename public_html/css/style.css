@@ -10,6 +10,21 @@ Global styles
 * create a responsive container
 */
 
+html, body {
+	margin: 0;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 2rem;
+}
+
+.clearfix {
+	clear: both;
+}
+
+
+
 /* Large devices (large desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 	.container { width: 1170px; }
@@ -28,6 +43,7 @@ Global styles
 
 
 
+
 /*
 *Header, title and Nav bar section
  */
@@ -42,17 +58,26 @@ img[alt="Isles Designs logo"] {
 	width: 600px;
 }
 
+
+#photos {
+	padding: 4rem;
+	background-color: #6a6c6f;
+}
+
+
 /*
 *about me section
  */
 
-.container {
+#about-me {
 	background-color: #ced3d3;
+	padding-left: 12rem;
+	padding-right: 12rem;
 }
 
 .h2{
 	padding-left: 3rem;
-	font-family: "lovers quarrel", cursive;
+	font-family: 'Lovers Quarrel', cursive;
 	font-size: 37px;
 }
 
@@ -74,15 +99,27 @@ img[alt="picture of Danielle"] {
 }
 
 /*
+* portfolio
+ */
+#portfolio {
+	background-color: #6a6c6f;
+}
+
+
+
+/*
 * contact form
  */
 #contact-form {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	background-color: #ced3d3;
 }
 
-
+footer{
+	background-color: #6a6c6f;
+}
 
 
 /*

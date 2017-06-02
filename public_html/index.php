@@ -48,22 +48,23 @@
 
 		<!-- header with title and nav bar -->
 		<header>
-			<div class="container-fluid">
-				<img class="pull-left" src="imagespwp/logo.png" alt="Isles Designs logo">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-md-4">
+						<img class="pull-left" src="imagespwp/logo.png" alt="Isles Designs logo">
+					</div> <!-- column -->
+				</div> <!--row -->
 			</div> <!--container -->
 		</header>
 
-		<div class="container-fluid"> <!-- all the content containter -->
+		<div class="container"> <!-- all the content containter -->
 
-			<!--Photography using fancybox3 -->
-			<section>
-				<div class="container">
-
+			<!--Photography -->
+				<div class="container" id="photos">
 					<a data-fancybox="group" data-caption="lightning">
 						<img class="img-responsive center-block" src="images-fancybox3/lightning.jpg" alt="lightning"/>
 					</a>
 				</div>
-			</section>
 
 
 			<!-- about me section-->
@@ -84,10 +85,25 @@
 			</div> <!-- container end about me-->
 
 
-			<!-- portfolio section -->
+			<!-- portfolio section panel style  -->
+			<div class="container" id="portfolio">
+				<div class="col-md-4 text-center">
+					<h3>Portfolio 1</h3>
+						<p>Blah blah blah</p>
+				</div>
+				<div class="col-md-4 text-center">
+					<h3>Portfolio 2</h3>
+						<p>Blah blah blah</p>
+				</div>
+				<div class="col-md-4 text-center">
+					<h3>Portfolio 3</h3>
+						<p>Blah blah blah</p>
+				</div>
+			</div> <!-- container -->
+
 
 			<!-- contact me section-->
-			<section>
+			<div class="container">
 				<div class="row">
 					<div class="col-md-2"></div>
 					<div class="col-md-8 center-block">
@@ -147,20 +163,21 @@
 						</div>
 					</div> <!-- column-->
 				</div> <!-- row -->
-			</section>
+			</div> <!-- container -->
 
+		</div> <!-- all the content container-->
 
 			<footer id="icons">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-4"
+						<div class="col-md-3"
 						<a href="https://www.linkedin.com/in/danielle-martin-6a2b21132"> <i
 								class="fa fa-linkedin-square fa-4x"></i></a>
 					</div>
 				</div>
 			</footer>
 
-		</div> <!-- all the content container-->
+
 
 	</body>
 
