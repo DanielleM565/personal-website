@@ -49,7 +49,9 @@
 		<!-- header with title and nav bar -->
 	<header>
 			<div class="row">
-					<img class="logo img-responsive" src="imagespwp/logo.png" alt="Isles Designs logo">
+				<div class="col-md-3">
+					<img class="img-responsive" src="imagespwp/logo.png" alt="Isles Designs logo">
+				</div>
 			</div> <!--row -->
 	</header>
 
@@ -75,7 +77,7 @@
 						<!-- link to contact me section here -->
 					</div> <!-- column text -->
 					<div class="col-md-4">
-						<img class="img-circle" src="imagespwp/profile-picture.jpg" alt="picture of Danielle">
+						<img class="img-circle display-block" src="imagespwp/profile-picture.jpg" alt="picture of Danielle">
 					</div> <!-- column img -->
 				</div> <!-- row -->
 			</div> <!-- container end about me-->
