@@ -49,7 +49,7 @@
 		<!-- header with title and nav bar -->
 	<header>
 			<div class="row">
-				<div class="col-md-3">
+				<div class="logo">
 					<img class="img-responsive" src="imagespwp/logo.png" alt="Isles Designs logo">
 				</div>
 			</div> <!--row -->
@@ -58,9 +58,9 @@
 		<div class="container"> <!-- all the content container -->
 
 			<!--Photography -->
-				<div class="container" id="photos">
+				<div class="img-responsive center-block" id="photos">
 					<a data-fancybox="group" data-caption="lightning">
-						<img class="img-responsive center-block" src="images-fancybox3/lightning.jpg" alt="lightning"/>
+						<img class=" center-block" src="images-fancybox3/lightning.jpg" alt="lightning"/>
 					</a>
 				</div>
 
