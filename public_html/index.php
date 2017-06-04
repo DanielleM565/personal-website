@@ -60,7 +60,7 @@
 			<!--Photography -->
 				<div class="img-responsive center-block" id="photos">
 					<a data-fancybox="group" data-caption="lightning">
-						<img class=" center-block" src="images-fancybox3/lightning.jpg" alt="lightning"/>
+						<img class="center-block" src="images-fancybox3/lightning.jpg" alt="lightning"/>
 					</a>
 				</div>
 

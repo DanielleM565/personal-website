@@ -65,17 +65,23 @@ body {
 	max-width: 250rem;
 }
 
+section {
+	display: block;
+}
+
 /*
 *Header, title and Nav bar section
  */
 
 header {
 	background-color:#6a6c6f;
+	max-height: 275px !important;
 }
 
 
 #logo {
 	float: left;
+	max-height: 275px !important;
 }
 
 
