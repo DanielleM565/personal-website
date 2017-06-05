@@ -14,10 +14,19 @@ html, body {
 	margin: 0;
 }
 
-.container {
-	margin: 0 auto;
-	padding: 0 2rem;
+@media (max-width: 1080px) {
+	.container {
+		margin: 0 auto;
+		padding: 0 2rem;
+	}
 }
+
+@media (min-width: 1079px) {
+	.container {
+
+	}
+}
+
 
 .clearfix {
 	clear: both;
@@ -25,27 +34,32 @@ html, body {
 
 
 
-/* Large devices (large desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-	.container { width: 1170px; }
-}
+/*!* Large devices (large desktops, 1200px and up) *!*/
+/*@media only screen and (min-width: 1200px) {*/
+	/*.container { width: 1170px; }*/
+/*}*/
 
-/* Medium devices (desktops, 992px and up) */
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-	.container { width: 970px; }
-}
+/*!* Medium devices (desktops, 992px and up) *!*/
+/*@media only screen and (min-width: 992px) and (max-width: 1199px) {*/
+	/*.container { width: 970px; }*/
+/*}*/
 
-/* Small devices (tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-	.container { width: 750px; }
-}
+/*!* Small devices (tablets, 768px and up) *!*/
+/*@media only screen and (min-width: 768px) and (max-width: 991px) {*/
+	/*.container { width: 750px; }*/
+/*}*/
 
 /*
 *keeping the headers and paragraphs the same fonts
 like the logo
  */
 
-h2, h3{
+h2 {
+	font-family: 'Lovers Quarrel', cursive;
+	font-size: 80px;
+}
+
+h3{
 	font-family: 'Lovers Quarrel', cursive;
 	font-size: 60px;
 }
@@ -55,10 +69,15 @@ p{
 	font-size: 25px;
 }
 
+/*
+*background image needs to go away on small screens
+ */
+@media (min-width: 1080px) {
 body {
 	height: 100%;
 	background: no-repeat center fixed url("background/background-stars.jpg");
 	background-size: cover;
+}
 }
 
 #sfooter {
@@ -100,17 +119,12 @@ header {
 
 #about-me {
 	background-color: #ced3d3;
-	padding-left: 12rem;
-	padding-right: 12rem;
-	padding-bottom: 3rem;
-	padding-top: 2rem;
 }
 
 
 img[alt="picture of Danielle"] {
 	height: 250px;
-	padding: 1rem;
-	float: right;
+	margin-top: 6rem;
 }
 
 .img-circle{
