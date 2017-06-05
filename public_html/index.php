@@ -165,18 +165,18 @@
 
 		</div> <!-- all the content container-->
 
-			<footer class="icons">
-				<div class="container">
+			<footer class="icon">
+				<div class="container text-center">
 					<div class="row">
 						<div>
 							<a href="https://www.linkedin.com/in/danielle-martin-6a2b21132"> <i
 								class="fa fa-linkedin-square fa-4x"></i></a>
-							<a href="https://www.linkedin.com/in/danielle-martin-6a2b21132"> <i
-										  class="fa fa-linkedin-square fa-4x"></i></a>
-							<a href="https://www.linkedin.com/in/danielle-martin-6a2b21132"> <i
-										  class="fa fa-linkedin-square fa-4x"></i></a>
+						</div> <!-- icon -->
+					</div> <!-- row -->
+					<div class="row">
+						<p>Connect with me on Linked-in and Thank you for stopping by</p>
 					</div>
-				</div>
+				</div> <!-- container -->
 			</footer>
 
 

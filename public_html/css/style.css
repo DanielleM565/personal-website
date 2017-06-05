@@ -150,10 +150,11 @@ footer{
 	display: flex;
 }
 
-.icons {
+.icon {
 	justify-content: center;
 	text-align: center;
 	padding: 1rem;
+	font-size: 17px;
 }
 
 
